@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="typinggame1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+    <nav  class="navbar">
+        <div class="logo">RapidTypist</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Test</a></li>
+            <li><a href="#">Typing Games</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="wrapper">
+        <h1>Words Typing Game.</h1>
+        <p>Type as many words as you can until time runs out.</p>
+        <button>START</button>
+        <div class="outerWrap">
+            <div class="scoreWrap">
+                <p>Score</p>
+                <span class="score">0</span>
+            </div>
+            <div class="timeWrap">
+                <p>Time left</p>
+                <span class="time">60</span>
+            </div>
+        </div>
+        <div class="wordsWrap">
+            <p class="words"></p>
+        </div>
+    </div>
+    <script src="typinggame1.js"></script>
+</body>
+</html>
