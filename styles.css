@@ -543,3 +543,54 @@ body {
 }
 
 
+.learn-more {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.learn-more:hover {
+  background-color: orange;
+}
+
+
+h1 {
+  color: orange;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.video {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.video:hover {
+  transform: scale(1.05);
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+h3 {
+  margin-top: 10px;
+  color: orange;
+}
